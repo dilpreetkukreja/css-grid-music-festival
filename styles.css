@@ -22,7 +22,8 @@ main{
     display: grid;
     grid-template-columns: repeat(4,  13vw);
     grid-template-rows: repeat(6,  13vw);
-    grid-gap: 1vw;   
+    grid-gap: 1vw; 
+     
 }
 .header{
     font-size: 14px;
@@ -65,6 +66,7 @@ main{
     grid-gap: 1vw;
     margin:0;
     padding:0;
+ 
 }
 .events ul li:nth-child(1){
     grid-column: 2;
@@ -125,4 +127,66 @@ main{
     padding: 8px;
     margin-top:0;
     margin-bottom:0;
+}
+@media screen and (max-width:1017px){
+    main{
+        grid-template-columns: repeat(4,  15vw);
+        grid-template-rows: repeat(6,  15vw);
+    }
+    .events ul{
+        grid-template-columns: repeat(3,  15vw);
+        grid-template-rows: repeat(6,  15vw);
+    }
+
+}
+@media screen and (max-width:892px){
+    main{
+        grid-template-columns: repeat(4,  19vw);
+        grid-template-rows: repeat(6,  19vw);
+    }
+    .events ul{
+        grid-template-columns: repeat(3,  19vw);
+        grid-template-rows: repeat(6,  19vw);
+    }
+    .ticketinfo{
+        grid-column: 2/4;
+        grid-row:3;
+    }
+
+}
+@media screen and (max-width:729px){
+    main{
+        grid-template-columns: repeat(4,  22vw);
+        grid-template-rows: repeat(6,  22vw);
+    }
+    .events ul{
+        grid-template-columns: repeat(3,  22vw);
+        grid-template-rows: repeat(6,  22vw);
+        font-size:0.5rem;
+    }
+    .ticketinfo{
+        font-size: 0.6rem;
+    }
+    .header{
+        font-size:10px;
+    }
+
+}
+@media screen and (max-width:414px){
+    main{
+        grid-template-columns: repeat(4,  28vw);
+        grid-template-rows: repeat(6,  28vw);
+    }
+    .events ul{
+        grid-template-columns: repeat(3,  28vw);
+        grid-template-rows: repeat(6,  28vw);
+        font-size:0.01rem;
+    }
+    .ticketinfo{
+        font-size: 0.6rem;
+    }
+    .header{
+        font-size:10px;
+    }
+
 }
