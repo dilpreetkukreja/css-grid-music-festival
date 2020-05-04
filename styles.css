@@ -1,6 +1,6 @@
 body{
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-family: Avenir, Helvetica, georgia, serif;
     background-image: url('images/bc.jpg'); 
     background-position: center;
@@ -128,7 +128,7 @@ main{
     margin-top:0;
     margin-bottom:0;
 }
-@media screen and (max-width:1017px){
+@media screen and (max-width:1020px){
     main{
         grid-template-columns: repeat(4,  15vw);
         grid-template-rows: repeat(6,  15vw);
