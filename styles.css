@@ -175,11 +175,11 @@ main{
 @media screen and (max-width:414px){
     main{
         grid-template-columns: repeat(4,  28vw);
-        grid-template-rows: repeat(6,  28vw);
+        grid-template-rows: repeat(6,  31vw);
     }
     .events ul{
         grid-template-columns: repeat(3,  28vw);
-        grid-template-rows: repeat(6,  28vw);
+        grid-template-rows: repeat(6,  31vw);
         font-size:0.01rem;
     }
     .events ul li{
